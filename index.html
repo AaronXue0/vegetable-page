@@ -1,0 +1,307 @@
+<html>
+
+<head>
+    <title>Vegetables</title>
+    <style>
+        .bg {
+            width: 1260px;
+            height: 880px;
+            background-color: #edf2c5;
+        }
+
+        .header {
+            display: flex;
+        }
+
+        .logo_Vegetables {
+            width: 271px;
+            height: 42px;
+            font-family: Arial;
+            font-size: 44px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 0.82;
+            letter-spacing: normal;
+            text-align: left;
+            color: #778a50;
+            margin: auto;
+            margin-bottom: 8px;
+            margin-left: 160px;
+            margin-top: 53px;
+        }
+
+        .btn-join-box {
+            width: 60px;
+            height: 25px;
+            border-radius: 3px;
+            border: solid 1px #778a50;
+            background-color: #edf2c5;
+            display: flex;
+            margin: auto;
+            margin-top: 61px;
+            margin-right: 160px;
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            text-align: center;
+            line-height: 0px;
+            color: #778a50;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        .btn-login-box {
+            width: 60px;
+            height: 25px;
+            border-radius: 3px;
+            border: solid 1px #778a50;
+            background-color: #edf2c5;
+            display: flex;
+            margin: auto;
+            margin-top: 61px;
+            margin-bottom: 17px;
+            font-family: Arial;
+            font-size: 14px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            text-align: center;
+            line-height: 0px;
+            color: #778a50;
+            justify-content: center;
+            margin-left: 10px;
+        }
+
+        .line-login {
+            width: 1px;
+            height: 25px;
+            background-color: #778a50;
+            border-left: 0.1px solid #778a50;
+            margin: auto;
+            margin-top: 61px;
+            margin-bottom: 17px;
+            margin-left: 10px;
+        }
+
+        .icon-fb {
+            width: 25px;
+            height: 25px;
+            display: flex;
+            margin: auto;
+            margin-top: 61px;
+            margin-bottom: 17px;
+            color: #778a50;
+            background: url("btn_facebook.png");
+            margin-left: 10px;
+        }
+
+        .icon-ig {
+            width: 25px;
+            height: 25px;
+            display: flex;
+            margin: auto;
+            margin-top: 61px;
+            margin-bottom: 17px;
+            margin-left: 469px;
+            color: #778a50;
+            background: url("btn_instagram.png");
+        }
+
+        .nav {
+            border-radius: 3px;
+            background-color: #778a50;
+            width: 940px;
+            height: 44px;
+            display: flex;
+            border-radius: 3px;
+            margin: auto;
+            margin-left: 160px;
+            margin-right: 160px;
+        }
+
+        .nav-list {
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-list-item {
+            list-style: none;
+            margin: auto auto;
+        }
+
+        .nav-list-item-link {
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.25;
+            letter-spacing: normal;
+            text-align: left;
+            color: #edf2c5;
+            margin-left: 60px;
+            margin-top: 16px;
+        }
+
+        .img_main {
+            width: 940px;
+            height: 448px;
+            display: flex;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+        .body-box {
+            display: flex;
+            padding-left: 160px;
+        }
+
+        .body-box-title {
+            width: 445px;
+            height: 45px;
+            display: flex;
+            border-radius: 3px;
+            background-color: #778a50;
+            margin-bottom: 15px;
+        }
+
+        #contact {
+            margin-left: 50px;
+        }
+
+        .body-box-item {
+            font-family: Arial;
+            font-size: 16px;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2.25;
+            letter-spacing: normal;
+            text-align: left;
+            color: #edf2c5;
+            margin: auto;
+            margin-left: 30px;
+            margin-right: auto;
+        }
+
+        #pepper {
+            margin-right: 12px;
+            width: 140px;
+            height: 140px;
+        }
+
+        #carrot {
+            margin-right: 12px;
+            width: 140px;
+            height: 140px;
+        }
+
+        #corn {
+            width: 140px;
+            height: 140px;
+        }
+
+        .body-box-content {
+            width: 445px;
+            height: 140px;
+            border-radius: 3px;
+            background-color: #f7fbda;
+            margin-left: 51px;
+            margin-top: 15px;
+        }
+
+        .body-box-content-list {
+            display: block;
+        }
+
+        #question {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: left;
+            color: #7d7d7d;
+            padding-top: 16px;
+            margin-left: 15px;
+            margin-right: 20px;
+        }
+
+        #info {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.83;
+            letter-spacing: normal;
+            text-align: left;
+            color: #7d7d7d;
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body class="bg">
+    <div class="header">
+        <h1 class="logo_Vegetables">Vegetables</h1>
+        <i class="icon-ig"></i>
+        <i class="icon-fb"></i>
+        <hr class="line-login">
+        <button class="btn-login-box">LOGIN</button>
+        <button class="btn-join-box">JOIN</button>
+    </div>
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-list-item">
+                <a class="nav-list-item-link">Home</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-list-item-link">About Us</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-list-item-link">Vegetables</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-list-item-link">Online</a>
+            </li>
+            <li class="nav-list-item">
+                <a class="nav-list-item-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <img src="img_main_pumpkin.png" class="img_main">
+    <div class="body-box">
+        <div>
+            <div class="body-box-title">
+                <p class="body-box-item">Vegetables</p>
+            </div>
+            <img src="img_vegetables_pepper.png" id="pepper">
+            <img src="img_vegetables_carrot.png" id="carrot">
+            <img src="img_vegetables_corn.png" id="corn">
+        </div>
+        <div>
+            <div class="body-box-title" id="contact">
+                <p class="body-box-item">Contact</p>
+            </div>
+            <div class="body-box-content">
+                <div class="body-box-content-list">
+                    <p id="question">
+                        For any questions or suggestions about Vegetables, Vegetables Club or your online order you can
+                        contact Vegetables Customer Service by phone, email or post and we’ll be happy to help.
+                    </p>
+                    <hr width="95%">
+                    <div id="info">E-mail : Vegetables@aaabbccc.com</div>
+                    <div id="info">PHONE : +886-123-456-789</div>
+                </div>
+            </div>
+        </div>
+
+</html>
