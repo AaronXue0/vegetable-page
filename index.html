@@ -246,6 +246,32 @@
             color: #7d7d7d;
             margin-left: 15px;
         }
+
+        .flex-content {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .footer {
+            width: 1260px;
+            height: 60px;
+            background-color: #778a50;
+            margin-top: 35px;
+        }
+
+        .footer-text {
+            font-family: Arial;
+            font-size: 12px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 3;
+            letter-spacing: normal;
+            text-align: center;
+            color: #edf2c5;
+            padding: 10px;
+            margin-bottom: 25px;
+        }
     </style>
 </head>
 
@@ -283,9 +309,11 @@
             <div class="body-box-title">
                 <p class="body-box-item">Vegetables</p>
             </div>
-            <img src="img_vegetables_pepper.png" id="pepper">
-            <img src="img_vegetables_carrot.png" id="carrot">
-            <img src="img_vegetables_corn.png" id="corn">
+            <div class="flex-content">
+                <img src="img_vegetables_pepper.png" id="pepper">
+                <img src="img_vegetables_carrot.png" id="carrot">
+                <img src="img_vegetables_corn.png" id="corn">
+            </div>
         </div>
         <div>
             <div class="body-box-title" id="contact">
@@ -303,5 +331,10 @@
                 </div>
             </div>
         </div>
-
+    </div>
+    <footer class="footer">
+        <p class="footer-text">
+            Copyrights 2017 Vegetables cise / Design by Vegetables
+        </p>
+    </footer>
 </html>
